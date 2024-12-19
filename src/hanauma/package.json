@@ -1,0 +1,21 @@
+{
+    "name": "hanauma-backend",
+    "version": "1.0.0",
+    "main": "src/app.js",
+    "scripts": {
+      "dev": "nodemon src/app.js",
+      "migrate:make": "knex migrate:make",
+      "migrate:latest": "knex migrate:latest",
+      "migrate:rollback": "knex migrate:rollback"
+    },
+    "dependencies": {
+      "dotenv": "^16.1.4",
+      "express": "^4.18.2",
+      "knex": "^2.5.1",
+      "pg": "^8.10.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
+  
